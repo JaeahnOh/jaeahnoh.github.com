@@ -1,29 +1,19 @@
 ---
-title: "Autm-rb: A Bootstrap-Based Jekyll Theme"
-tags: [Autm-rb, download]
+layout: post
+title: "A Post with a Video"
+description: "Custom written post descriptions are the way to go... if you're not lazy."
+tags: [gunc, video]
+comments: true
+share: true
 ---
 
-![Autumn-rb](http://scontent-a.cdninstagram.com/hphotos-xpa1/t51.2885-15/10561076_278209769029508_1423568667_n.jpg)
+<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
 
-## Introduction
+Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
 
-Autm-rb is a simple and beautiful [Jekyll](http://jekyllrb.com/) theme. Partly based on "shiori" and "midnight" themes.
+Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
 
-## Features
-Autm-rb can be used for both portfolio and blogging.
+{% highlight html %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+{% endhighlight %}
 
-- github, stackoverflow, twitter links
-- sharebuttons: twitter, facebook, google plus
-- comments via DISQUS
-- pagination
-- tags
-- codehighlighting
-- bootstrap components
-- font awesome
-- responsive
-- embeded video support
-- cool colors
-
-<a href="https://github.com/railsr/autm-rb" target="_blank" class="btn btn-success"><i class="fa fa-github fa-lg"></i> View on GitHub</a>
-
-<p><a href="https://twitter.com/railsr7" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @railsr7</a></p>
