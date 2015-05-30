@@ -11,6 +11,9 @@ share: true
 
 Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
 
+  <p> 오늘은 진짜 힘든 하루다 힘들었다..... </p>
+  <p> 저녁도 대충 먹어서 배고프고, 치킨이 그립군 .....  </p>
+  <p> 안되겠다 그냥 운동이나 하러 가야겠다  .....  </p>
 Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
 
 {% highlight html %}
