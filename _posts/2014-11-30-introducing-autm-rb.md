@@ -12,7 +12,7 @@ share: true
   <p> 구운계란 하나를 먹으면서 유투브를 보는데 소름이 돋는다 </p>
   <p> 나도 그림이나 그릴까.... ㅋㅋㅋ 갑자기 내일부터 다시 운동 할 생각에 한숨이 나온다. </p>
 
-Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
+
 
 {% highlight html %}
 <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
