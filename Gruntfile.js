@@ -7,18 +7,18 @@ module.exports = function(grunt) {
         jshintrc: '.jshintrc'
       },
       all: [
-        'Gruntfile.js',
-        'assets/js/*.js',
-        'assets/js/plugins/*.js',
-        '!assets/js/scripts.min.js'
+        'jaeahnoh.github.io/Gruntfile.js',
+        'jaeahnoh.github.io/assets/js/*.js',
+        'jaeahnoh.github.io/assets/js/plugins/*.js',
+        '!jaeahnoh.github.io/assets/js/scripts.min.js'
       ]
     },
     uglify: {
       dist: {
         files: {
-          'assets/js/scripts.min.js': [
-            'assets/js/plugins/*.js',
-            'assets/js/_*.js'
+          'jaeahnoh.github.io/assets/js/scripts.min.js': [
+            'jaeahnoh.github.io/assets/js/plugins/*.js',
+            'jaeahnoh.github.io/assets/js/_*.js'
           ]
         }
       }
@@ -31,9 +31,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'images/',
+          cwd: 'jaeahnoh.github.io/images/',
           src: '{,*/}*.{png,jpg,jpeg}',
-          dest: 'images/'
+          dest: 'jaeahnoh.github.io/images/'
         }]
       }
     },
@@ -41,9 +41,9 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'images/',
+          cwd: 'jaeahnoh.github.io/images/',
           src: '{,*/}*.svg',
-          dest: 'images/'
+          dest: 'jaeahnoh.github.io/images/'
         }]
       }
     },
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
     },
     clean: {
       dist: [
-        'assets/js/scripts.min.js'
+        'jaeahnoh.github.io/assets/js/scripts.min.js'
       ]
     }
   });
