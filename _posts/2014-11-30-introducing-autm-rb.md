@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Post with a Video"
+title: "세상에서 제일 멋진 스케치"
 description: "Custom written post descriptions are the way to go... if you're not lazy."
 tags: [gunc, video]
 comments: true
@@ -8,9 +8,9 @@ share: true
 ---
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
-  <p> 오늘은 진짜 힘든 하루다 힘들었다..... </p>
-  <p> 저녁도 대충 먹어서 배고프고, 치킨이 그립군 .....  </p>
-  <p> 안되겠다 그냥 운동이나 하러 가야겠다  .....  </p>
+  <p> 오늘은 토요일이다 운동 쉬는 날이라 무지 좋다 </p>
+  <p> 구운계란 하나를 먹으면서 유투브를 보는데 소름이 돋는다 </p>
+  <p> 나도 그림이나 그릴까.... ㅋㅋㅋ 갑자기 내일부터 다시 운동 할 생각에 한숨이 나온다. </p>
 Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
 
 
