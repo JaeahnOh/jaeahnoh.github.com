@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: food
 title: "세상에서 제일 멋진 스케치"
 description: "Custom written post descriptions are the way to go... if you're not lazy."
 tags: [gunc, video]
