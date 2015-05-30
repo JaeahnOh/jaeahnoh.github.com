@@ -6,13 +6,13 @@ title: "diary"
 {% for post in paginator.posts  %}
 <div class="post-header-home">
   <h1>
-    <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+    <a href="{{ exercise.url | prepend:site.baseurl }}">{{ exercise.title }}</a>
   </h1>
-  {% include post-header-home.html %}
+  {% include exercise-header-home.html %}
 </div>
-<div class="post-excerpt-home">
-  {{ post.excerpt }}
-  <p class="text-left"><a href="{{ post.url | prepend:site.baseurl }}">Continue Reading &rarr;</a></p>
+<div class="exercise-excerpt-home">
+  {{ exercise.excerpt }}
+  <p class="text-left"><a href="{{ exercise.url | prepend:site.baseurl }}">Continue Reading &rarr;</a></p>
 </div>
 {% endfor %}
 
