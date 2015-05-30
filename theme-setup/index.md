@@ -116,15 +116,15 @@ Your site's logo, appears in the header below the navigation bar and is used as 
 
 #### url
 
-Used to generate absolute URLs for sitemaps, feeds and for generating canonical URLs in a page's `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*. [Protocol-relative URLs](http://www.paulirish.com/2010/the-protocol-relative-url/) are a nice option but there are a few caveats[^protocol].
+Used to generate absolute URLs for sitemaps, feeds and for generating canonical URLs in a page's `<head>`. When developing locally either comment this out or use something like `jaeahnoh.github.io` so all assets load properly. *Don't include a trailing `/`*. [Protocol-relative URLs](http://www.paulirish.com/2010/the-protocol-relative-url/) are a nice option but there are a few caveats[^protocol].
 
 Examples:
 
 {% highlight yaml %}
-url: http://mmistakes.github.io/so-simple-theme
-url: http://localhost:4000
-url: http://mademistakes.com
-url: //mademistakes.com
+url:jaeahnoh.github.io
+url: jaeahnoh.github.io
+url: jaeahnoh.github.io
+url: jaeahnoh.github.io
 url: 
 {% endhighlight %}
 
