@@ -7,7 +7,7 @@ comments: true
 share: true
 ---
 
-<iframe width="700" height="315" src="https://www.youtube.com/watch?v=ZhBf1CW8O6c" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="//https://www.youtube.com/watch?v=ZhBf1CW8O6c" frameborder="0"> </iframe>
 
 Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
 
@@ -18,6 +18,6 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 <p> 세상에는 엄청난 사람들이 많구나 .... </p>
 
 {% highlight html %}
-<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="//https://www.youtube.com/watch?v=ZhBf1CW8O6c" frameborder="0"> </iframe>
 {% endhighlight %}
 
