@@ -2,7 +2,7 @@
 title: "힘들다 언제 끝나 ... "
 tags: [힘들어요_tag]
 ---
-  <img class="https://scontent.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/s720x720/11330013_1394753137522027_6001094945451622086_n.jpg?oh=64fe862909e66864e4c6cc6091e4a71d&oe=56082C3C" >
+  <img class="//scontent.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/s720x720/11330013_1394753137522027_6001094945451622086_n.jpg?oh=64fe862909e66864e4c6cc6091e4a71d&oe=56082C3C" >
   <p> 오늘은 진짜 힘든 하루다 힘들었다..... </p>
   <p> 저녁도 대충 먹어서 배고프고, 치킨이 그립군 .....  </p>
   <p> 안되겠다 그냥 운동이나 하러 가야겠다  .....  </p>
